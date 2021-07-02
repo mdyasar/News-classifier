@@ -1,3 +1,6 @@
+import warnings
+warnings.filterwarnings("ignore")
+
 from flask import Flask, render_template, request
 from classify import classifier
 
